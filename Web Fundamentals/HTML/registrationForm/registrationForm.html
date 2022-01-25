@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> My awesome form!</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="pass">Password (8 characters minimum):</label> <br>
+        <input type="password" id="pass" name="password" minlength="8" required><br>
+        <label for="pass">Password (Confirm):</label> <br>
+        <input type="password" id="pass" name="password" minlength="8" required><br>
+        <label for="start">Birth date:</label>
+        <input type="date" id="birthDate" name="birthDate"><br>
+        <input type="radio" id="genderMale" name="Gender" value="Male">
+        <label for="genderMale">Male</label>
+        <input type="radio" id="genderFemale" name="Gender" value="Female">
+        <label for="genderFemale">Female</label>
+        <input type="radio" id="genderOther" name="Gender" value="Other">
+        <label for="genderOther">Other</label><br><br>
+        <label for="userInput">Send us a comment!</label><br><br>
+        <textarea id="userInput"></textarea><br>
+        <label for="language">Choose a programming language:</label>
+
+        <select name="language" id="language">
+            <option value="Javascript">Javascript</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="PHP">PHP</option>
+        </select><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
